@@ -1,0 +1,186 @@
+/* karla-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/karla-v31-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* karla-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/karla-v31-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  cursor: pointer;
+  padding: 1.2rem 2.4rem;
+  font-family: inherit;
+  outline: 0;
+  border: 1px solid #86a2a5;
+  border-radius: 0.8rem;
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+  }
+}
+
+input:focus {
+  cursor: text;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Karla";
+  background-color: #e0f1e8;
+  height: 100vh;
+  color: #2a4144;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding: 4rem;
+}
+
+.form-all {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.contact {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 736;
+  padding: 4rem;
+}
+
+.contact-heading {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  letter-spacing: -1px;
+  padding-bottom: 3.2rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 32rem;
+}
+.emile {
+  padding-top: 2.4rem;
+}
+.adres {
+  width: 65.6rem;
+}
+
+.query {
+  padding-top: 2.4rem;
+}
+.type {
+  padding-bottom: 0.4rem;
+}
+
+.radio-form {
+  display: flex;
+  gap: 1.6rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.radio {
+  border: 1px solid #86a2a5;
+  border-radius: 0.8rem;
+  padding: 1.2rem 2.4rem;
+  display: flex;
+  gap: 20px;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: rgba(12, 125, 105, 0.5);
+  }
+}
+
+.qwery {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+textarea {
+  width: 100%;
+  max-width: 65.6rem;
+  resize: vertical;
+  min-height: 10.5rem;
+  outline: 0;
+  border: 1px solid #86a2a5;
+  border-radius: 8px;
+  padding: 1.2rem 2.4rem;
+}
+
+.message {
+  padding-top: 2.4rem;
+}
+
+.messeg {
+  padding-bottom: 0.8rem;
+}
+
+.checkbox {
+  padding-top: 4rem;
+}
+
+.i-concent {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 65.6rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #0c7d69;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+
+  &:hover {
+    background-color: rgb(10, 99, 82);
+    cursor: pointer;
+  }
+}
